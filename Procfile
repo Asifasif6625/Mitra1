@@ -1,1 +1,1 @@
-worker: python3 -m DonLee_Robot
+web: python3 -m DonLee_Robot
