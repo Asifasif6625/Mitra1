@@ -58,7 +58,7 @@ async def start(bot, update):
         InlineKeyboardButton('🛠 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 🛠', url='https://t.me/viberepo')
     ],[
         InlineKeyboardButton('⚙ 𝑯𝒆𝒍𝒑 ⚙', callback_data="help")
-        InlineKeyboardButton(' 𝑫𝒆𝒑𝒍𝒐𝒚 𝒊𝒎𝒈🖼️', url='
+        InlineKeyboardButton(' 𝑫𝒆𝒑𝒍𝒐𝒚 𝒊𝒎𝒈🖼️', url='https://telegra.ph/file/92688f5694ff8d115b663.jpg') 
     ]] 
    
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -76,10 +76,10 @@ async def start(bot, update):
 @DonLee_Robot.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('𝑯𝒐𝒎𝒆 🏡', callback_data='start'),
+        InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕 🤨', callback_data='about')
     ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('𝑪𝒍𝒐𝒔𝒆 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -97,8 +97,8 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('𝑯𝒐𝒎𝒆 🏡', callback_data='start'),
+        InlineKeyboardButton('𝑪𝒍𝒐𝒔𝒆 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
